@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+
+.header_seccion {
+    background-color: black;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.select_region {
+    display: flex;
+}
+
+.select_region ul {
+    list-style: none;
+}
+
+.header_principal {
+    background-color: #F0A83E;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+
+.header_principal ul {
+    width: 500px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*MAIN*/
+
+main {
+    color: #3C2313;
+}
+
+    /*BANNER*/
+
+.main_banner {
+    align-items: flex-end;
+    background-image: url(../views/banner.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 606.2px;
+    justify-content: center;
+    line-height: 200%;
+    padding: 20px;
+    text-align: center;
+    width: 1519.2px;
+}
+
+.main_banner h2 {
+    font-weight: 400;
+    background-color: white;
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main_banner p {
+    padding: 12px;
+}
+
+.main_banner .comederos_button {
+    background-color: #F0A83E;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 23px;  
+}
+
+    /*PRODUCTOS*/
+
+.main_productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main_productos h1 {
+    font-size: 40px;
+}
+
+.main_productos ul {
+    list-style: none;
+    display: flex;
+}
+
+.main_productos li {
+    margin: 10px;
+}
+
+.prod_lista {
+    display: flex;
+    justify-content: center;
+}
+
+.producto {
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.producto p {
+    color: #F0A83E;
+}
+    
+.imagen_producto {
+    width: 265px;
+    height: 268.86px;
+}
+    
+/*FOOTER*/
+
+    /*Contactos*/
+
+.footer_uno {
+    background: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+}
+
+.footer_uno .contact_box {
+    display: flex;
+    padding: 10px;
+}
+
+.contact_box div {
+    margin-left: 30px;
+}
+
+.footer_uno h3 {
+    color: #FFFFFF
+}
+
+.footer_uno p {
+    color: #8A8787
+}
+
+
+    /*Derechos Reservados*/
+
+.footer_dos {
+    background-color: #222222;
+}
+
+.footer_dos h6 {
+    color: white;
+    text-align: center;
+}
